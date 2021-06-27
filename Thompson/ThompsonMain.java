@@ -5,6 +5,7 @@
  */
 package thompson;
 
+import java.io.PrintWriter;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 /**
@@ -40,7 +41,14 @@ public class ThompsonMain {
         System.out.println(regex);
         Automata afn_result = ThomsonAlgorithim.getAfn();
         System.out.println(afn_result);
+                try {
+            PrintWriter writer = new PrintWriter("C:\\Users\\srr_s\\OneDrive\\Documentos\\NetBeansProjects\\Thompson\\Afn.txt", "UTF-8");
+            writer.println(afn_result);
+            writer.close();
+        } catch (Exception e) {
+            e.printStackTrace();
  
+ }
  }
     
 }
