@@ -3,10 +3,7 @@ package thompson;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-/**
- * Clase para modelar un automata finito determinista o no determnista
- * @author Pablo
- */
+
 public class Automata {
     
     //compuesto por un estado inicial
@@ -156,13 +153,6 @@ public class Automata {
         return res;
     }
 
-    public String getLenguajeR() {
-        return lenguajeR;
-    }
-
-    public void setLenguajeR(String lenguajeR) {
-        this.lenguajeR = lenguajeR;
-    }
     
    
 
