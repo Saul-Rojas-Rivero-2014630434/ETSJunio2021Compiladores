@@ -2,10 +2,7 @@ package thompson;
 
 import java.util.ArrayList;
 
-/**
- * Clase para simular un estado de un autómata
- * @author Pablo
- */
+
 public class Estado<T> {
 
     //atributos
