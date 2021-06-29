@@ -19,10 +19,12 @@ public class LL1Main {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
+        Scanner leer = new Scanner(System.in);
         
                 Ll1 ll1 = new Ll1(test());
+   
                 ll1.resultados();
-                while (true) {
+          while (true) {
                     leer = new Scanner(System.in);
 
                     System.out.println("Cadena a verificar:");
